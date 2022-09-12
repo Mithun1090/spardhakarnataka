@@ -1,0 +1,584 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-quiz',
+  templateUrl: './quiz.component.html',
+  styleUrls: ['./quiz.component.css']
+})
+export class QuizComponent implements OnInit {
+
+  quizjsonArray = quizjsonArray;
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
+const quizjsonArray = [{
+  'date': '17-10-2019',
+  'desc': "KAS"
+}, {
+  'date': '18-10-2019',
+  'desc': "KAS"
+}, {
+  'date': '19-10-2019',
+  'desc': "KAS"
+}, {
+  'date': '20&21-10-2019',
+  'desc': "KAS"
+}, {
+  'date': '22-10-2019',
+  'desc': "KAS"
+}, {
+  'date': '23-10-2019',
+  'desc': "KAS"
+}, {
+  'date': '24-10-2019',
+  'desc': "KAS"
+}, {
+  'date': '25-10-2019',
+  'desc': "KAS"
+}, {
+  'date': '26-10-2019',
+  'desc': "KAS"
+}, {
+  'date': '27-10-2019',
+  'desc': "KAS"
+}, {
+  'date': '28-10-2019',
+  'desc': "KAS"
+}, {
+  'date': '29-10-2019',
+  'desc': "KAS"
+}, {
+  'date': '30-10-2019',
+  'desc': "KAS"
+}, {
+  'date': '31-10-2019',
+  'desc': "KAS"
+}, {
+  'date': '1-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '2-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '3-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '4-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '5-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '6-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '7-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '8-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '9-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '11-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '11-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '12-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '13-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '14-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '15-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '16-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '17-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '18-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '19-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '20-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '21-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '22-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '23-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '24-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '25-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '26-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '27-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '28-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '29-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '30-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '1-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '2-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '3-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '4-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '5-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '6-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '7-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '8-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '9-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '12-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '12-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '12-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '13-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '14-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '15-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '16-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '17-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '18-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '19-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '20-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '21-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '22-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '23-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '24-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '25-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '26-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '27-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '28-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '29-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '30-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '31-12-2019',
+  'desc': "KAS"
+}, {
+  'date': '1-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '2-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '3-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '4-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '5-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '6-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '7-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '8-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '9-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '11-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '11-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '12-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '13-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '14-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '15-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '16-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '17-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '18-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '19-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '20-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '21-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '22-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '23-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '24-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '25-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '26-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '27-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '28-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '29-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '30-11-2019',
+  'desc': "KAS"
+}, {
+  'date': '1-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '2-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '3-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '4-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '5-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '6-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '7-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '8-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '9-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '12-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '12-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '12-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '13-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '14-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '15-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '16-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '17-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '18-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '19-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '20-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '21-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '22-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '23-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '24-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '25-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '26-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '27-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '28-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '29-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '30-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '31-01-2020',
+  'desc': "KAS"
+}, {
+  'date': '1-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '2-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '3-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '4-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '5-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '6-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '7-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '8-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '9-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '12-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '12-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '12-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '13-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '14-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '15-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '16-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '17-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '18-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '19-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '20-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '21-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '22-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '23-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '24-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '25-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '26-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '27-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '28-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '29-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '30-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '31-02-2020',
+  'desc': "KAS"
+}, {
+  'date': '1-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '2-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '3-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '4-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '5-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '6-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '7-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '8-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '9-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '12-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '12-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '12-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '13-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '14-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '15-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '16-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '17-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '18-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '19-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '20-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '21-03-2020',
+  'desc': "KAS"
+}, {
+  'date': '22-03-2020',
+  'desc': "KAS"
+}];

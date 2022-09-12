@@ -1,0 +1,16 @@
+.pagination{
+    width: 100%;
+}
+.pagination-sm .page-link {
+    padding: 1rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    margin: 1rem;
+    border-radius: 25px;
+    color: white !important;
+    border: none !important;
+}
+.page-item.active .page-link {
+    background-color: transparent;
+    border: none;
+}

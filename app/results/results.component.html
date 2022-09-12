@@ -1,0 +1,75 @@
+<div class='row box-shadow margin-tb-30px'>  
+    <div class='col-lg-12'>   
+        <h3 class="bold center-align white-text">Results</h3>
+    </div>  
+</div> 
+<div class="container-fluid paginator">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 pagination-components">
+          <div *ngFor="let item of jsonArray | 
+            angularPaginator : { itemsPerPage: this.itemsPerPage, currentPage: currentPage };
+            let i = index"
+            class="col-md-3 margin-tb-30px"
+            style="border-radius: 25px;">
+
+          
+            <div class="box-shadow " style="padding-top: 20px;padding-bottom: 10px;">
+                <img alt="" class="img-responsive  box-shadow " 
+                src="{{item.src}}" 
+                style="height:200px;width:200px;margin-left:20px;border-radius: 25px;">
+                <h5 class="page-number center-align white-text">{{ item['name'] }}</h5>
+                <h6 class="page-number center-align white-text">{{ item['designation'] }}</h6>
+            </div>
+          </div>
+          <br />
+
+          <nav
+            angularPaginator
+            [forceEllipses]="true"
+            [rotate]="true"
+            [maxSize]="5"
+            aria-label="Pagination Component"
+            #paginator="angularPaginator"
+            (pageChange)="currentPage = $event">
+            <ng-container *ngIf="paginator.pages['length'] !== 0">
+              <ul class="pagination pagination-sm">
+                <!-- direction link -->
+                <li class="page-item" [ngClass]="{ disabled: paginator.currentPage === paginator.firstPage}">
+                  <a class="page-link box-shadow bg-color" (click)="paginator.toPreviousPage()">
+                    <span aria-hidden="true">Previous</span>
+                    <span class="visually-hidden">Previous</span>
+                  </a>
+                </li>
+  
+                <!-- pagination array -->
+                <li class="page-item" *ngFor="let page of paginator.pages"
+                  [ngClass]="{ active: page['active'] }">
+                  <a class="page-link box-shadow bg-color"
+                    (click)="!page['active'] && paginator.setCurrentPage(page['number'])">
+                    {{ page['text'] }}
+                    <span class="visually-hidden" *ngIf="!page['active']">
+                        Page{{ page['text'] }}
+                    </span>
+                    <span class="visually-hidden" *ngIf="page['active']">
+                        page {{ page['text'] }}
+                    </span>
+                  </a>
+                </li>
+  
+                <!-- direction link -->
+                <li class="page-item" [ngClass]="{disabled: paginator.currentPage === paginator.lastPage}">
+                  <a class="page-link box-shadow bg-color" (click)="paginator.toNextPage()">
+                    <span aria-hidden="true">Next</span>
+                    <span class="visually-hidden">Next</span>
+                  </a>
+                </li>
+              </ul>
+            </ng-container>
+          </nav>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  

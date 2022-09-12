@@ -1,0 +1,38 @@
+<div class='row margin-tb-30px box-shadow'>  
+    <div class='col-lg-12'>   
+        <h3 class="bold center-align white-text">Contact Us</h3>
+    </div>  
+</div>  
+<div class='row margin-tb-30px'>  
+    <div class='col-lg-12'>   
+        <div class='col-lg-5 box-shadow' style="padding-top: 30px;">   
+            <div class='col-lg-12 margin-tb-10px'>  
+                <input placeholder=" Enter your Name" type="text" id="name">
+            </div>  
+            <div class='col-lg-12 margin-tb-10px'>  
+                <input placeholder=" Enter Email" type="text" id="name">
+            </div>  
+            <div class='col-lg-12 margin-tb-10px'>  
+                <input placeholder=" Enter your contact" type="text" id="name">
+            </div>  
+            <div class='col-lg-12 margin-tb-10px'>  
+                <select class="form-control">  
+                    <option disabled>Select Website</option>  
+                    <option>Choose Website</option>  
+                    <option *ngFor="let i of courseListjsonArray">{{i.name}}</option>  
+                </select>  
+            </div>  
+            <div class='col-lg-12 margin-tb-10px'>  
+                <input placeholder=" Write Something" type="text" id="name">
+            </div>  
+            <button type="button" class="btn btn-primary col-md-3 margin-tb-10px" style="margin: 20px;float:right;">Submit</button>
+
+        </div> 
+        <div class='col-lg-5 box-shadow white-text' style="padding: 5%;float: right;">   
+            <p> <img src="../../assets/images/location.png" style="height: 20px;width:20px;"> Vinayaka Complex, B.H.Road, Near Karnataka Sangha, Shimoga</p>
+            <p> <img src="../../assets/images/icons/appbadge.png" style="height: 20px;width:20px;">  spardhakarnatakasmg@gmail.com</p>
+            <p> <img src="../../assets/images/icons/baseline_phone_black_48dp.png" style="height: 20px;width:20px;"> (+91) 9071673831 / (+91) 9071673832</p>
+            <p>  <img src="../../assets/images/icons/whatsapp.png" style="height: 20px;width:20px;"> (+91) 9980215013 / (+91) 9008515660</p>
+        </div> 
+    </div>  
+</div>  

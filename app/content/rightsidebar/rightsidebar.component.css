@@ -1,0 +1,13 @@
+
+.panel{
+    background-color: #eaafc8;
+    border: none !important;
+    color: white !important;
+}
+.panel h3{
+    margin: 0px !important;
+}
+.panel-default>.panel-heading{
+    border: none !important;
+    background-color: #eaafc8;
+} 
